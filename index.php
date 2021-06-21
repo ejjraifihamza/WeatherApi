@@ -2,9 +2,9 @@
     // Url de l'API
     $url = "http://api.openweathermap.org/data/2.5/weather?q=Youssoufia&lang=en&units=metric&appid=bb50c2148901ddc9d04126129ece044f";
 
-    // On get les resultat
+    // to read file into a string
     $raw = file_get_contents($url);
-    // Décode la chaine JSON
+    // change it to std class
     $json = json_decode($raw);
     
     // Nom de la ville
