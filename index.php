@@ -7,7 +7,7 @@
     // change it to std class
     $json = json_decode($raw);
     
-    // Nom de la ville
+    // Name of the city
     $name = $json->name;
     // Météo
     $weather = $json->weather[0]->main;
